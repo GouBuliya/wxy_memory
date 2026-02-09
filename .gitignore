@@ -1,3 +1,82 @@
+# Dependencies
 node_modules/
+
+# Logs
+logs/
 *.log
-.clawdbot/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn
+.yarn-integrity
+yarn-error.log
+
+# dotenv environment variables file
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# OpenClaw specific (large files we don't need)
+browser/
+media/
+completions/
+extensions/
+workspace-*/
+workspace-dev/
+credentials/
+cron/jobs.json
+devices/
+identity/
+telegram/
+subagents/
+scripts/
+
+# Keep sessions for memory
+!sessions/
